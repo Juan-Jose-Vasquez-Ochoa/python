@@ -15,7 +15,7 @@ Despues tendremos que agregar el año del lanzamiento del libro, el cual tendra 
 A continuacion nos pedira la categoria del libro, las cuales son:
 
 1. Ficcion.
-2. NO ficcion.
+2. No ficcion.
 3. Infantil.
 4. Educativo.
 
