@@ -1,6 +1,6 @@
 # Funcion Agregar al inventario
 
-Con esta funcion nos encargamos de los libros que se agregaran,basandonos en:
+Con esta funcion nos encargamos de los libros que se agregaran, basandonos en:
 
 - ID unico.
 - Titulo del libro.
