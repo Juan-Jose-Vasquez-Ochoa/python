@@ -11,7 +11,7 @@ def add_book(books):
                 print("Select the type of book ")
                 print("[1] Fiction")
                 print("[2] No fiction")
-                print("[3] Infantila")
+                print("[3] Infantile")
                 print("[4] Educative")
                 category = input("What is the book's category?: ")
                 if category == "1":
@@ -21,13 +21,13 @@ def add_book(books):
                     category = "No fiction"
                     break
                 elif category == "3":
-                    category = "Infantila"
+                    category = "Infantile"
                     break
                 elif category == "4":
                     category = "Educative"
                     break
                 else:
-                    print("Invalid value")
+                    print("Invalid value") 
             while True:
                 print("Select the type of book ")
                 print("[1] Avaliable")
@@ -41,11 +41,13 @@ def add_book(books):
                     break
                 else:
                     print("Invalid value")
+                    break
             id += 1
             book = {"id": id, "title": title, "author": author, "year": year, "category": category,"state": state}
             books.append(book) 
-            print(" Libro añadido correctamente.")
+            print("Book was added succesfull.")
             print(books)     
         else:
-            print(" Error: The year of publication must be between 1500 and 2025")         
+            print(" Error: The year of publication must be between 1500 and 2025")          
+        break
 add_book(books)
